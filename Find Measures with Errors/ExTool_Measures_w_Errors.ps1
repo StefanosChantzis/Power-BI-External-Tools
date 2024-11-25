@@ -13,8 +13,8 @@ param (
 # Load necessary assemblies for Analysis Services
 # Update the DLL paths 
 
-$core_dll_path = "C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Update Cache\KB5046859\GDR\x64\MICROSOFT.ANALYSISSERVICES.CORE.DLL"
-$tabular_dll_path = "C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Update Cache\KB5046859\GDR\x64\MICROSOFT.ANALYSISSERVICES.TABULAR.DLL"
+$core_dll_path = "C:\xxxx\MICROSOFT.ANALYSISSERVICES.CORE.DLL"
+$tabular_dll_path = "C:\xxxx\MICROSOFT.ANALYSISSERVICES.TABULAR.DLL"
 
 # Check if all dependencies are present:
 if (-not(Test-Path -Path $core_dll_path)) {
